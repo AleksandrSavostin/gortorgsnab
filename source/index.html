@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>GTS</title>
+<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<header class="header">
+  <div class="header__top">
+    <div class="header__wrapper">
+      <ul class="header__top-list">
+        <li class="header__top-item">
+          <a class="header__top-link" href="#">О компании</a>
+        </li>
+        <li class="header__top-item">
+          <a class="header__top-link" href="#">Производство</a>
+        </li>
+        <li class="header__top-item">
+          <a class="header__top-link" href="#">Наши бренды</a>
+        </li>
+        <li class="header__top-item">
+          <a class="header__top-link" href="#">Дилерам</a>
+        </li>
+        <li class="header__top-item">
+          <a class="header__top-link" href="#">Доставка и оплата</a>
+        </li>
+        <li class="header__top-item">
+          <a class="header__top-link" href="#">Прайс</a>
+        </li>
+        <li class="header__top-item">
+          <a class="header__top-link" href="#">Контакты</a>
+        </li>
+      </ul>
+      <div class="header__city">
+        <a class="header__city-link" href="#">Челябинская область</a>
+      </div>
+    </div>
+  </div>
+  <div class="s-wrapper">
+    <div class="header__main">
+      <a href="#" class="header__main-logo">
+        <img src="img/desktop-header-logo.svg" width="95" height="45">
+      </a>
+      <a href="#" class="header__main-logo-mobile">
+        <img src="img/logo-mobile.png" width="57" height="22">
+      </a>
+      <div class="header__catalog">
+        <a href="#" class="header__catalog-link">Весь каталог</a>
+      </div>
+      <ul class="header__contact-list">
+        <li class="header__contact-item header__contact-item--phone">
+          <div class="header__contact-wrapper">
+            <a class="header__contact-phone" href="tel:88002340684">8 (800) 234-06-84</a>
+            <p class="header__contact-text">Бесплатно по России</p>
+          </div>
+          <div class="header__contact-wrapper header__contact-wrapper--hidden">
+            <a class="header__contact-phone" href="tel:+74957889934">+7 (495) 788-99-34</a>
+            <p class="header__contact-text">пн-пт с 9:00 до 19:00</p>
+          </div>
+        </li>
+        <li class="header__contact-item header__contact-item--email">
+          <a href="mailto:salegts@gortorgsnab.ru" class="header__contact-email">salegts@gortorgsnab.ru</a>
+        </li>
+        <li class="header__contact-item header__contact-item--callback">
+          <a href="#" class="header__contact-callback">Обратный звонок</a>
+        </li>
+      </ul>
+      <div class="header__phone-mobile">
+        <a class="header__phone-mobile-link" href="tel:88002340684">
+          <span class="visually-hidden">8 (800) 234-06-84</span>
+        </a>
+      </div>
+      <ul class="header__icons-list">
+        <li class="header__icons-item header__icons-search">
+          <button class="header__icon header__icon--search" type="button"></button>
+        </li>
+        <li class="header__icons-item header__icons--compare">
+          <a href="#" class="header__icon header__icon--compare">
+            <span class="header__icon-qanity">1</span>
+          </a>
+        </li>
+        <li class="header__icons-item header__icons--favorite">
+          <a href="#" class="header__icon header__icon--favorite">
+            <span class="header__icon-qanity">5</span>
+          </a>
+        </li>
+        <li class="header__icons-item header__icons--cart">
+          <a href="" class="header__icon header__icon--cart">
+            <span class="header__icon-qanity">1</span>
+          </a>
+        </li>
+      </ul>
+      <div class="burger">
+        <button class="burger__icon js-burger" type="button">
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="s-wrapper">
+    <ul class="navcats-all__list">
+      <li class="navcats-all__item">
+        <a class="navcats-all__link" href="#">Стеллажи по типу хранения</a>
+      </li>
+      <li class="navcats-all__item">
+        <a class="navcats-all__link" href="#">Стеллажи по назначению</a>
+      </li>
+      <li class="navcats-all__item">
+        <a class="navcats-all__link" href="#">Техника для склада</a>
+      </li>
+      <li class="navcats-all__item">
+        <a class="navcats-all__link" href="#">Гидравлические тележки</a>
+      </li>
+      <li class="navcats-all__item">
+        <a class="navcats-all__link" href="#">Самоходные электроштабелёры</a>
+      </li>
+      <li class="navcats-all__item">
+        <a class="navcats-all__link" href="#">Аксессуары для хранения</a>
+      </li>
+      <li class="navcats-all__item">
+        <a class="navcats-all__link" href="#">Пластиковая тара</a>
+      </li>
+      <li class="navcats-all__item">
+        <a class="navcats-all__link" href="#">Грузоподъемное оборудование</a>
+      </li>
+      <li class="navcats-all__item">
+        <a class="navcats-all__link" href="#">Верстаки, лестницы, стремянки</a>
+      </li>
+      <li class="navcats-all__item navcats-all__item--offer">
+        <a class="navcats-all__link" href="#">Весенние предложения</a>
+      </li>
+      <li class="navcats-all__item navcats-all__item--offer navcats-all__item--action">
+        <a class="navcats-all__link" href="#">Акции</a>
+      </li>
+      <li class="navcats-all__item navcats-all__item--offer navcats-all__item--project">
+        <a class="navcats-all__link" href="#">Индивидуальное проектирование складов</a>
+      </li>
+    </ul>
+  </div>
+</header>
+<main class="main__stillage">
+  <section class="main__top">
+    <div class="s-wrapper">
+      <div class="breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a href="#" class="breadcrumbs__link breadcrumbs__link--home">
+                <span class="visually-hidden">Главная</span>
+              </a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a href="#" class="breadcrumbs__link">Каталог</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a href="#" class="breadcrumbs__link">Стеллажи</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a href="#" class="breadcrumbs__link">Полочные стеллажи</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a href="#" class="breadcrumbs__link">Стеллажи ТС Лайт (до 120 кг на полку)</a>
+            </li>
+          </ul>
+      </div>
+      <div class="s-product__title-container">
+        <h1 class="s-product__title">Стеллажи ТС Лайт (до 120 кг на полку)</h1>
+        <div class="s-product__price">
+          <span class="s-product__price-text">Цена от</span>
+          <span class="s-product__price-cost">1 316</span>
+          <span class="s-product__price-label">руб.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="s-product">
+    <div class="s-wrapper">
+      <div class="s-product__container">
+        <div class="s-product__main-slider">
+          <p class="s-product__description">Универсальные сборно-разборные стеллажи на зацепах. Самая популярная модель для любых задач по хранению.</p>
+          <div class="s-product__main-image">
+            <div class="swiper-container gallery-top">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="s-product__slide-main">
+                    <div class="s-product__slide-info">
+                      <button class="s-product__button s-product__button--1 s-button" type="button">+</button>
+                      <div class="s-product__slide-wrapper s-product__slide-wrapper--1">
+                        <div class="s-product__slide-image">
+                          <span class="visually-hidden">Изображение характеристики</span>
+                        </div>
+                        <div class="s-product__slide-content">
+                          <h3 class="s-product__slide-title">Полки на любой высоте</h3>
+                          <p class="s-product__slide-text">Благодаря шагу перфорации в 25 мм, прикрепите полки там, где нужно.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="s-product__slide-info">
+                      <button class="s-product__button s-product__button--2 s-button" type="button">+</button>
+                      <div class="s-product__slide-wrapper s-product__slide-wrapper--2">
+                        <div class="s-product__slide-image">
+                          <span class="visually-hidden">Изображение характеристики</span>
+                        </div>
+                        <div class="s-product__slide-content">
+                          <h3 class="s-product__slide-title">Полки на любой высоте</h3>
+                          <p class="s-product__slide-text">Благодаря шагу перфорации в 25 мм, прикрепите полки там, где нужно.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="s-product__slide-info">
+                      <button class="s-product__button s-product__button--3 s-button" type="button">+</button>
+                      <div class="s-product__slide-wrapper s-product__slide-wrapper--3">
+                        <div class="s-product__slide-image">
+                          <span class="visually-hidden">Изображение характеристики</span>
+                        </div>
+                        <div class="s-product__slide-content">
+                          <h3 class="s-product__slide-title">Полки на любой высоте</h3>
+                          <p class="s-product__slide-text">Благодаря шагу перфорации в 25 мм, прикрепите полки там, где нужно.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="s-product__slide-info">
+                      <button class="s-product__button s-product__button--4 s-button" type="button">+</button>
+                      <div class="s-product__slide-wrapper s-product__slide-wrapper--4">
+                        <div class="s-product__slide-image">
+                          <span class="visually-hidden">Изображение характеристики</span>
+                        </div>
+                        <div class="s-product__slide-content">
+                          <h3 class="s-product__slide-title">Полки на любой высоте</h3>
+                          <p class="s-product__slide-text">Благодаря шагу перфорации в 25 мм, прикрепите полки там, где нужно.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="s-product__slide-info">
+                      <button class="s-product__button s-product__button--5 s-button" type="button">+</button>
+                      <div class="s-product__slide-wrapper s-product__slide-wrapper--5">
+                        <div class="s-product__slide-image">
+                          <span class="visually-hidden">Изображение характеристики</span>
+                        </div>
+                        <div class="s-product__slide-content">
+                          <h3 class="s-product__slide-title">Полки на любой высоте</h3>
+                          <p class="s-product__slide-text">Благодаря шагу перфорации в 25 мм, прикрепите полки там, где нужно.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="img/s-product__main.jpg" alt="Фото-1">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/s-product__2.jpg" alt="Фото-2">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/s-product__3.jpg" alt="Фото-3">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/s-product__4.jpg" alt="Фото-4">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/s-product__5.jpg" alt="Фото-5">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/s-product__3.jpg" alt="Фото-3">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/s-product__3.jpg" alt="Фото-3">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="s-product__gallery-slider">
+            <div class="swiper-container gallery-thumbs">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="s-product__gallery-item">
+                    <img src="img/s-product__1.jpg" alt="Фото-1">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="s-product__gallery-item">
+                    <img src="img/s-product__2.jpg" alt="Фото-2">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="s-product__gallery-item">
+                    <img src="img/s-product__3.jpg" alt="Фото-3">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="s-product__gallery-item">
+                    <img src="img/s-product__4.jpg" alt="Фото-4">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="s-product__gallery-item">
+                    <img src="img/s-product__5.jpg" alt="Фото-5">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="s-product__gallery-item">
+                    <img src="img/s-product__3.jpg" alt="Фото-3">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="s-product__gallery-item">
+                    <img src="img/s-product__3.jpg" alt="Фото-3">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="s-product__document-load">
+            <a href="#" download>
+              <span>Паспорт</span>
+            </a>
+            <a href="#" download>
+              <span>Сертификат</span>
+            </a>
+            <a href="#" download>
+              <span>Инструкция по сборке</span>
+            </a>
+          </div>
+        </div>
+        <div class="s-product__parameters">
+          <h3 class="s-product__parameters-title">Подбор стеллажа по параметрам</h3>
+          <div class="s-product__wrapper">
+            <ul class="s-dimensions__list">
+              <li class="s-dimensions__item">
+                <span class="s-item__title">Высота, мм:</span>
+                <div class="s-dimensions__item-wrapper">
+                  <button class="s-item__text" type="button">1500</button>
+                  <button class="s-item__text" type="button">2000</button>
+                  <button class="s-item__text" type="button">2500</button>
+                  <button class="s-item__text s__item--active" type="button">3000</button>
+                </div>
+              </li>
+              <li class="s-dimensions__item">
+                <span class="s-item__title">Ширина, мм:</span>
+                <div class="s-dimensions__item-wrapper">
+                  <button class="s-item__text" type="button">800</button>
+                  <button class="s-item__text" type="button">900</button>
+                  <button class="s-item__text" type="button">1000</button>
+                  <button class="s-item__text s__item--active" type="button">1100</button>
+                  <button class="s-item__text" type="button">1200</button>
+                </div>
+              </li>
+              <li class="s-dimensions__item">
+                <span class="s-item__title">Глубина, мм:</span>
+                <div class="s-dimensions__item-wrapper">
+                  <button class="s-item__text" type="button">300</button>
+                  <button class="s-item__text" type="button">400</button>
+                  <button class="s-item__text" type="button">500</button>
+                  <button class="s-item__text s__item--active" type="button">600</button>
+                  <button class="s-item__text" type="button">1200</button>
+                </div>
+              </li>
+            </ul>
+            <ul class="s-feature__list">
+              <li class="s-feature__item s-feature__item--quantity">
+                <span class="s-item__title">Количество полок:</span>
+                <div class="s-item__choise s-item__choise--help">
+                  <button class="s-item__minus" type="button"></button>
+                  <input type="number" class="s__item-input" min="2" max="15" value="2">
+                  <button class="s-item__plus" type="button"></button>
+                  <div class="s-feature__item-question">
+                    <ul class="s-item__help-list">
+                      <li class="s-item__help-item">Минимальное – 2,</li>
+                      <li class="s-item__help-item">максимальное – 15</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="s-feature__item">
+                <span class="s-item__title">Нагрузка на полку, кг:</span>
+                <div class="s-dimensions__item-wrapper">
+                  <button class="s-item__text" type="button">150</button>
+                  <button class="s-item__text s__item--active" type="button">300</button>
+                </div>
+              </li>
+              <li class="s-feature__item">
+                <span class="s-item__title">Тип полки:</span>
+                <div class="s-dimensions__item-wrapper">
+                  <button class="s-item__text" type="button">Центральная</button>
+                  <button class="s-item__text s__item--active" type="button">Перфорированная</button>
+                </div>
+              </li>
+            </ul>
+            <ul class="s-options__list">
+              <li class="s-options__item">
+                <span class="s-item__title">Количество стеллажей:</span>
+                <div class="s-item__choise">
+                  <button class="s-item__minus" type="button"></button>
+                  <input type="number" class="s__item-input" value="1">
+                  <button class="s-item__plus" type="button"></button>
+                </div>
+              </li>
+              <li class="s-options__item s-options__item--connect">
+                <label>
+                  <input type="radio" name="choise">
+                  <span class="s-options__item-choise">Отдельно стоящие</span>
+                </label>
+                <label>
+                  <input type="radio" name="choise">
+                  <span class="s-options__item-choise">Соединение в линию</span>
+                </label>
+            </ul>
+          </div>
+          <div class="s-total">
+            <div class="s-total__info active">
+              <p class="s-total__text">Стеллаж Универсал 3000х1200х1200 мм (2 полки, 300 кг, перфорированные), 1</p>
+              <div class="s-total__value">130 500
+                <span> руб.</span>
+              </div>
+              <button class="s-total__info-button s-button"></button>
+            </div>
+            <div class="s-total__more">
+              <button class="s-total__more-title s-button" type="button">Добавить еще конфигурацию</button>
+              <div class="s-total__more-text">Текущая конфигурация будет сохранена</div>
+            </div>
+          </div>
+          <div class="s-buy">
+            <div class="s-buy__total">
+              <span class="s-buy__total-title">Итого:</span>
+              <div class="s-buy__total-text">130 500
+                <span> руб.</span>
+              </div>
+            </div>
+            <div class="s-buy__action">
+              <button class="s-buy__add-cart s-button" type="button">В корзину</button>
+              <div class="s-buy__action-wrapper">
+                <input type="tel" placeholder="+7 ___ – ___ – __ – __">
+                <button class="s-buy__add-quick s-button" type="button">Быстрый заказ</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="s-additions">
+    <div class="s-wrapper">
+      <div class="s-additions__container">
+        <div class="s-additions__offer">
+          <h3 class="s-additions__offer-title">Закажите бесплатный проект</h3>
+          <div class="s-additions__form close">
+            <p class="s-additions__form-text">Оставьте свои контакты и мы свяжемся с Вами для обсуждения деталей создания бесплатного проекта.</p>
+            <form>
+              <div class="s-additions__form-data">
+                <label class="s-additions__form-field">
+                  <span>Номер телефона</span>
+                  <input type="tel">
+                </label>
+                <label class="s-additions__form-field">
+                  <span>Имя и фамилия</span>
+                  <input type="text">
+                </label>
+              </div>
+              <label class="s-additions__form-field">
+                <span>Комментарий</span>
+                <textarea cols="30" rows="10">
+                </textarea>
+              </label>
+              <label class="s-additions__form-field s-additions__form-field--politic">
+                <input type="checkbox">
+                <p class="s-additions__politic-text">Даю согласие на обработку
+                  <a href="#" target="blank">персональных данных</a>
+                </p>
+              </label>
+              <button class="s-additions__form-close s-button">Скрыть форму</button>
+            </form>
+          </div>
+          <p class="s-additions__offer-text">Хотите увидеть расстановку этих стеллажей в вашем помещении?</p>
+          <button class="s-additions__button s-button" type="button">Заказать проект</button>
+        </div>
+        <div class="s-additions__slider">
+          <div class="s-additions__slider-container">
+            <h3 class="s-additions__slider-title">Рекомендуем добавить к вашему стеллажу</h3>
+            <div class="swiper-button-prev-s2"></div>
+            <div class="swiper-button-next-s2"></div>
+          </div>
+          <div class="swiper-container-s2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="s-additions__item">
+                  <a class="s-additions__image" href="#">
+                    <img src="img/img-1.jpg" alt="Фото-1">
+                  </a>
+                  <a href="#" class="s-additions__name">Ограничитель папок ТСУп сс 717/60</a>
+                  <div class="s-additions__wrapper">
+                    <a href="#" class="s-additions__price">120 000
+                      <span>руб.</span>
+                    </a>
+                    <button class="s-additions__buy s-button" type="button"></button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="s-additions__item">
+                  <a class="s-additions__image" href="#">
+                    <img src="img/img-1.jpg" alt="Фото-1">
+                  </a>
+                  <a href="#" class="s-additions__name">Ограничитель папок ТСУп сс 717/60</a>
+                  <div class="s-additions__wrapper">
+                    <a href="#" class="s-additions__price">120 000
+                      <span>руб.</span>
+                    </a>
+                    <button class="s-additions__buy s-button" type="button"></button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="s-additions__item">
+                  <a class="s-additions__image" href="#">
+                    <img src="img/img-1.jpg" alt="Фото-1">
+                  </a>
+                  <a href="#" class="s-additions__name">Ограничитель папок ТСУп сс 717/60</a>
+                  <div class="s-additions__wrapper">
+                    <a href="#" class="s-additions__price">120 000
+                      <span>руб.</span>
+                    </a>
+                    <button class="s-additions__buy s-button" type="button"></button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="s-additions__item">
+                  <a class="s-additions__image" href="#">
+                    <img src="img/img-1.jpg" alt="Фото-1">
+                  </a>
+                  <a href="#" class="s-additions__name">Ограничитель папок ТСУп сс 717/60</a>
+                  <div class="s-additions__wrapper">
+                    <a href="#" class="s-additions__price">120 000
+                      <span>руб.</span>
+                    </a>
+                    <button class="s-additions__buy s-button" type="button"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="s-block__catalogs">
+    <div class="s-wrapper">
+      <h3 class="s-block__title">Стеллажи и дополнительные товары</h3>
+    </div>
+    <div class="s-wrapper">
+      <div class="s-block__wrapper">
+        <ul class="s-block__title-list">
+          <li class="s-block__title-item">
+            <a class="s-block__title-link active" href="#">Популярные сборки</a>
+          </li>
+          <li class="s-block__title-item">
+            <a class="s-block__title-link" href="#">Все конфигурации</a>
+          </li>
+          <li class="s-block__title-item">
+            <a class="s-block__title-link" href="#">Комплектующие к стеллажам</a>
+          </li>
+          <li class="s-block__title-item">
+            <a class="s-block__title-link" href="#">Аксессуары и сопутствующие товары</a>
+          </li>
+        </ul>
+        <div class="s-block__more-close">
+          <button class="s-block__more s-button" type="button"></button>
+          <span class="s-block__more-close-text">Свернуть блок</span>
+        </div>
+      </div>
+    </div>
+    <div class="s-block__catalog">
+      <div class="s-wrapper">
+        <ul class="s-block__list">
+          <li class="s-block__item celement"></li>
+          <li class="s-block__item celement"></li>
+          <li class="s-block__item celement"></li>
+          <li class="s-block__item celement"></li>
+          <li class="s-block__item celement"></li>
+          <li class="s-block__item celement"></li>
+          <li class="s-block__item celement"></li>
+          <li class="s-block__item celement"></li>
+        </ul>
+        <ul class="s-block__pagination-list">
+          <li class="s-block__pagination-item active">
+            <a href="#" class="s-block__pagination">1</a>
+          </li>
+          <li class="s-block__pagination-item">
+            <a href="#" class="s-block__pagination">2</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="otziv"></section>
+  <section class="s-projects">
+    <div class="s-wrapper">
+      <div class="s-projects__container">
+        <h3 class="s-projects-title">Наши проекты с применением стеллажей ТС Лайт</h3>
+        <p class="s-projects-text">Мы помогаем нашим клиентам максимально эффективно распорядиться площадью склада, увеличить ее, за счет многоуровневых конструкций стеллажей, тем самым сэкономить на аренде или стоимости владения. Мы готовы реализовать самые нестандартные решения, вплоть до установки подъемного механизма внутри стеллажной системы, для максимального удобства эксплуатации склада.</p>
+        <p class="s-projects-text">Представляем вашему вниманию фотоотчеты некоторых реализованных проектов с применением стеллажей ТС Лайт.</p>
+        <div class="swiper-button-prev-s3"></div>
+        <div class="swiper-button-next-s3"></div>
+      </div>
+      <div class="swiper-container-s3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="s-projects__slide-wrapper">
+              <div class="s-projects__item-image">
+                <img src="img/projects-1.jpg" alt="Фото-1">
+              </div>
+              <a href="#" class="s-projects__item-title">Мезонин и Универсал</a>
+              <p class="s-projects__item-text">Мезонин 84 кв.м., пол +1 уровень AHI Carrier, 2019</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="s-projects__slide-wrapper">
+              <div class="s-projects__item-image">
+                <img src="img/projects-2.jpg" alt="Фото-2">
+              </div>
+              <a href="#" class="s-projects__item-title">Мезонин с воротами безопасности, для погрузки/разгрузки</a>
+              <p class="s-projects__item-text">Площадь 220 кв.м., высота 9,7 м. Акушерство, 2019</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="s-projects__slide-wrapper">
+              <div class="s-projects__item-image">
+                <img src="img/projects-1.jpg" alt="Фото-1">
+              </div>
+              <a href="#" class="s-projects__item-title">Мезонин и Универсал</a>
+              <p class="s-projects__item-text">Мезонин 84 кв.м., пол +1 уровень AHI Carrier, 2019</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<script type="text/javascript" src="js/imask.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+</body>
+</html>

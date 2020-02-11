@@ -1,0 +1,222 @@
+.swiper-container,
+.swiper-container-s2 {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+
+.swiper-container-s3 {
+  width: 100%;
+  overflow: hidden;
+
+  @media (max-width: 1024px) {
+    overflow: visible;
+    width: 700px;
+  }
+
+  @media (max-width: 768px) {
+    width: 292px;
+  }
+}
+
+.swiper-container-s2 {
+  @media (max-width: 768px) {
+    overflow: visible;
+  }
+}
+
+.swiper-container-s2 .swiper-slide {
+  @media (max-width: 768px) {
+    width: 143px;
+  }
+}
+
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+
+  border: 1px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.gallery-top {
+  width: 649px;
+  height: 649px;
+
+  @media (max-width: 768px) {
+    width: auto;
+    height: auto;
+  }
+}
+
+.gallery-thumbs {
+  width: 566px;
+  height: 106px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    overflow: visible;
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-button-prev-s2,
+.swiper-button-next-s2,
+.swiper-button-prev-s3,
+.swiper-button-next-s3 {
+  position: absolute;
+  top: 184px;
+  size: 51px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: -25px;
+  z-index: 10;
+  cursor: pointer;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAPCAQAAAB39paFAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjARYMLClmj+jZAAAAdklEQVQY02XPwQnCUBBF0fsTwVqSXaxLrEWDFViTHWSjYCoQvC4mIfP1ze4wMG+QNMXRk+zYUhg5IuStq5HzP10sQW0mQeydMgn2PmuShv3S4M0Nlx7i4Kzq7CE249APr5Uq3soPvlbOnwc/7LDmu50UqdLwgS+qZ6ol44Q1egAAAABJRU5ErkJggg==");
+  background-position: 20px 19px;
+  background-repeat: no-repeat;
+  outline: none;
+  border-radius: 50%;
+  transition: 0.7s background;
+}
+
+.swiper-button-prev-s2,
+.swiper-button-next-s2,
+.swiper-button-prev-s3,
+.swiper-button-next-s3 {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev-s2.swiper-button-disabled,
+.swiper-button-next-s2.swiper-button-disabled,
+.swiper-button-prev-s3.swiper-button-disabled,
+.swiper-button-next-s3.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+}
+
+html:not(.touchevents) .swiper-button-prev:hover,
+html:not(.touchevents) .swiper-button-next:hover,
+html:not(.touchevents) .swiper-button-prev-s2:hover,
+html:not(.touchevents) .swiper-button-next-s2:hover,
+html:not(.touchevents) .swiper-button-prev-s3:hover,
+html:not(.touchevents) .swiper-button-next-s3:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.swiper-buttons {
+  position: absolute;
+  z-index: 1;
+  size: 100vw 0;
+  max-width: 1270px;
+  transform: translateX(-50%);
+}
+
+.swiper-button-prev,
+.swiper-button-prev-s2,
+.swiper-button-prev-s3 {
+  top: 64px;
+  left: 3px;
+
+  width: 30px;
+  height: 30px;
+
+  background-image: url("../img/icon-direction.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.swiper-button-next,
+.swiper-button-next-s2,
+.swiper-button-next-s3 {
+  top: 64px;
+  right: 1px;
+
+  width: 30px;
+  height: 30px;
+
+  background-image: url("../img/icon-direction.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(180deg);
+}
+
+.swiper-button-next-s2 {
+  top: 25px;
+  right: 0;
+
+  width: 9px;
+}
+
+.swiper-button-next-s3 {
+  top: auto;
+  bottom: 43px;
+  right: 0;
+
+  width: 9px;
+}
+
+.swiper-button-prev-s2 {
+  top: 25px;
+  left: auto;
+  right: 39px;
+
+  width: 9px;
+}
+
+.swiper-button-prev-s3 {
+  top: auto;
+  bottom: 43px;
+  left: auto;
+  right: 40px;
+  width: 9px;
+}
+
+.s-product__gallery-slider .swiper-slide-thumb-active .s-product__gallery-item {
+  outline: 1px solid #e7701b;
+  outline-offset: -1px;
+}
+
+.s-product__gallery-slider .swiper-slide {
+  width: 105px;
+}
+
+.swiper-container-s3 .swiper-slide {
+  @media (max-width: 768px) {
+    width: 291px;
+  }
+
+  @media (max-width: 1024px) {
+    width: 648px;
+  }
+}
+
+.s-product__gallery-slider .swiper-button-prev,
+.s-product__gallery-slider .swiper-button-next {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}

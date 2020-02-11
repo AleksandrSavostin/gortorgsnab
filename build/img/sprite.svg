@@ -1,0 +1,348 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs>
+    <style>
+      .cls-1 {
+        fill: #0e0e0e;
+        fill-rule: evenodd;
+      }
+    </style>
+  
+    <style>
+      .cls-1, .cls-2 {
+        fill: #0e0e0e;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  
+    <style>
+      .cls-1 {
+        fill: #1a1a18;
+        fill-rule: evenodd;
+      }
+    </style>
+  
+    <style>
+      .cls-1 {
+        fill: #0e0e0e;
+        fill-rule: evenodd;
+      }
+    </style>
+  
+    <style>
+      .cls-1 {
+        fill: #0e0e0e;
+      }
+    </style>
+  
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1156" y="63.969" width="11.03" height="11.031" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#e76f17"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  
+    <style>
+      .cls-1 {
+        fill: #c3c3c3;
+      }
+
+      .cls-2 {
+        font-size: 11px;
+        fill: #fff;
+        font-family: "Open Sans";
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs><symbol id="icon-burger" viewBox="0 0 23 14">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+
+  <path id="&#x411;&#x443;&#x440;&#x433;&#x435;&#x440;" class="cls-1" d="M426,62h23v2H426V62Zm0,6h23v2H426V68Zm0,6h23v2H426V74Z" transform="translate(-426 -62)"/>
+</symbol><symbol id="icon-cart" viewBox="0 0 17 16.094">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+
+  <rect class="cls-1" x="7" y="3.094" width="8" height="2"/>
+  <path id="Rectangle_1008_copy" data-name="Rectangle 1008 copy" class="cls-2" d="M1600,72.6l2.07-7.728,1.93,0.518-2.07,7.727Z" transform="translate(-1587 -61.906)"/>
+  <rect id="Rectangle_1008_copy_4" data-name="Rectangle 1008 copy 4" class="cls-1" y="0.094" width="4" height="2"/>
+  <rect id="Rectangle_1008_copy_2" data-name="Rectangle 1008 copy 2" class="cls-1" x="4" y="9.094" width="11" height="2"/>
+  <path id="Rectangle_1008_copy_3" data-name="Rectangle 1008 copy 3" class="cls-2" d="M1590.84,61.9l2.27,10.738-1.95.454-2.27-10.739Z" transform="translate(-1587 -61.906)"/>
+  <circle class="cls-1" cx="5.5" cy="14.594" r="1.5"/>
+  <circle id="Ellipse_1012_copy" data-name="Ellipse 1012 copy" class="cls-1" cx="11.5" cy="14.594" r="1.5"/>
+</symbol><symbol id="icon-compare" viewBox="0 0 12 14">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+
+  <path id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430;" class="cls-1" d="M1453,64h2V78h-2V64Zm5,6h2v8h-2V70Zm5-3h2V78h-2V67Z" transform="translate(-1453 -64)"/>
+</symbol><symbol id="icon-direction" viewBox="0 0 9 16">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+
+  <path id="&#x41B;&#x435;&#x432;&#x435;&#x435;" class="cls-1" d="M1589.01,1356.54l-1.4,1.47-6.22-6.55h0l-1.4-1.46,7.62-8.01,1.4,1.46-6.23,6.55Z" transform="translate(-1580 -1342)"/>
+</symbol><symbol id="icon-home" viewBox="0 0 17 14">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<image id="&#x413;&#x43B;&#x430;&#x432;&#x43D;&#x430;&#x44F;" width="17" height="14" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAOCAQAAABj5D8/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfkAR4QDTPa/0YDAAAA10lEQVQY033RMU7DMBjF8WcH6cuQyjTtXHEKTtOWhZVj9AQwMfYADEluVSJFokhBqvJncCLigvje9Pn9Bst2Q1Ay7fPqKT3x6dp0d7u6+4c03U4X7ZUin4JML8q0VzNHQ4ipCJQM4XQcQkmgYmqEYVgEWE1BBVYSqImdIrgdwQLH8gppDgo8jowl9QzpdFxTgr1R4HA4hGc1ojXvr17K1eZVv9WnnJDTjQa1elDTt3kuSdh5i4mYAx+PB6Zt6sZbx1w22Nf9D8Ewh0mS6+Mrkf/erv7or/kGwiioO9ULdssAAAAASUVORK5CYII="/>
+</symbol><symbol id="icon-minus" viewBox="0 0 12 2">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+
+  <rect id="_-" data-name="-" class="cls-1" width="12" height="2"/>
+</symbol><symbol id="icon-phone" viewBox="0 0 11.03 11.031">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+
+  <path id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430;" class="cls-1" d="M1165.26,70.867a0.855,0.855,0,0,0-1.29,0c-0.3.3-.61,0.6-0.9,0.9a0.179,0.179,0,0,1-.25.045c-0.2-.106-0.41-0.193-0.59-0.31a9.273,9.273,0,0,1-2.26-2.055,5.389,5.389,0,0,1-.81-1.3,0.187,0.187,0,0,1,.05-0.239c0.3-.291.59-0.59,0.89-0.89a0.864,0.864,0,0,0,0-1.322c-0.24-.238-0.48-0.472-0.71-0.711-0.25-.243-0.49-0.489-0.73-0.73a0.859,0.859,0,0,0-1.29,0c-0.31.3-.6,0.607-0.91,0.9a1.456,1.456,0,0,0-.46.993,4.148,4.148,0,0,0,.32,1.81,11.173,11.173,0,0,0,1.95,3.25,12.19,12.19,0,0,0,4,3.129,5.817,5.817,0,0,0,2.22.645,1.623,1.623,0,0,0,1.39-.531c0.26-.289.55-0.553,0.83-0.828a0.871,0.871,0,0,0,0-1.316C1166.23,71.831,1165.74,71.35,1165.26,70.867Z" transform="translate(-1156 -63.969)"/>
+</symbol><symbol id="icon-project" viewBox="0 0 72 62">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<image id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430;" width="72" height="62" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAAA+CAQAAAAin5UQAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfkAQ0KMyqsTCtpAAAEbklEQVRo3u3ZTWxUVRTA8d8MLV9CRz7ESIOGj6Jo0JUkJAh0iBtjXGBgIwESDQQNO8UARkyMG4gbISEqC1A3YhA1QYRA+DIKaiQ2aqBgQRIIJBU6fEhpnT4XM4X3pkNnGNrXmnhmMXPuO++e/5x377nnvpuogQ1eAVst0C5WyUhttghszLxMooZmo5y0xxOmY5hrsRJlJR11xEyPasmMqLLRKEt9AGY4ZJcZMeJsk/RsZgekXrQptTFRE2gyMWQwVyJGoMChzMxOJXXCpKSztoUMduHB2HCG4GBI/9zZpFojQ02tGBAbUBWSIX2U2iSCArPW2ICuF3gPcowFTda4oLrXR1Kg3XB0dAWKmrE0tggVkWSBnsBkiZg+I7sSJIsA3ogtHDfyIegGiK6PsfekiKdiQPElxiKeSkfjE9NkJfI3J1X7zGtF7M75Wzb/OxAYaLmveyRoBTJNnfOq80gJAw0vanffTaBA1iA17q8kaKWBss57oIyeqiPaGBduxuuOJFnSosqgCvodqsKxWBposKEV9Fvxelj6kS0wsNLOewfoQMV9B5XcVPqRVS4VVee9mZWn+t3AyF9OuuLXvgGqxkoru7SfMqFvgJrM1SYITf2sVt+UXrh7C6jN9iKtmdI39uagLvb3SybLeIES/Q2oDLnbMZQ0WrsOHUhKqtYcKdsr6LCUPGd+N1fnu+CiFpdd1uKiC91a90iENhhj622vHvaG665Zj+XuMcTh3ga60e3G8bR3wJt4/+5QygXqKGtM9FhF0FOJscc2Bv1u2v8P9J8ECpeaxWZURaVoUSnWU0f0962XCyOQe1kVFHRSzrTPlrUL6+jSd957Kue9LQc0wHaBiwLfm1IEqJza+EZZ70zaiwCNT+1JBS6mgtSXqkjU5Ey+sM9UL4HxToduOmFSGa7KlZPqQtowV8DHfjLDPDoT41O+BWucVTjQN5lc8nEE+dW+VHocoDGi5zxNyRzDe6npvstF6J/QvnyLhaY41oMx6U5GabYz80ynmmpTXYX9IZN1mpyNCYfL3rIzpO/3dKImcE5tbAhdJFz3p84Yl7TWWGv6DiiEs8o46xI1NKpz1d4eTICVSL2UU5kJiRpY5dV8Yuw7yXg383buvKyPOaLS7xbXaITu9Vg+vXfuygO5arCnvzs9JFT7LdNyCyFaws7LnyzGK0t8eEuJPrI2rFBvNdZKW4b10hZhhzlmYq96aTRIm4VGs6VlZaXN1ohZ0hqQVm8vZppjBxZJW49l0tZitXor8l5vE6EAu/3isL98qsWf+Nk+DHYwv6CcsR+LHXMEXHIAz2MfLsmdES7xiH1YiEM45ysf4SHs1uSoJlu0umRtNN1Ex9Aim03zY6jlcSdcj+jnNIf0h12NLDW1hjke0kcbqyGkD1EX0Z/0g8WZLbeLEIUbmoaCq4X68QK9cB1sjuBzvaCHLvVBv5v2UaCAu3t3ccfSoaBC7Rqh+I7vinqLjqEEXvdHDEfA5Kr1iQrGURRoMF6INUKdXm/Kv5/hMWgUDDTgAAAAAElFTkSuQmCC"/>
+</symbol><symbol id="icon-question" viewBox="0 0 16 16">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+
+  <circle id="&#x41A;&#x43D;&#x43E;&#x43F;&#x43A;&#x430;" class="cls-1" cx="8" cy="8" r="8"/>
+  <text id="_2" data-name="?" class="cls-2" x="5.561" y="12.08">?</text>
+</symbol></svg>

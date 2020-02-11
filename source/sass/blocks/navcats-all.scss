@@ -1,0 +1,94 @@
+.avcats-all__wrapper {
+  position: relative;
+}
+
+.navcats-all__list {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-top: 13px;
+  padding-bottom: 12px;
+
+  justify-content: center;
+  padding-left: 55px;
+  padding-right: 54px;
+  margin-left: -19px;
+  list-style: none;
+  transition: 0.5s;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.navcats-all__item {
+  position: relative;
+
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  margin-left: 19px;
+  transition: 0.5s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:focus,
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+.navcats-all__item a {
+  color: #222222;
+  text-decoration: none;
+}
+
+
+.navcats-all__item--offer a {
+  color: #e76f17;
+}
+
+.navcats-all__item--action {
+  margin-left: 44px;
+}
+
+.navcats-all__item--action::after {
+  content: "";
+
+  position: absolute;
+  top: 3px;
+  left: -25px;
+
+  width: 17px;
+  height: 15px;
+  background-image: url("../img/icon-percent.png");
+}
+
+.navcats-all__item--action a {
+  color: #ea3232;
+}
+
+.navcats-all__item--project {
+  margin-left: 47px;
+}
+
+.navcats-all__item--project::after {
+  content: "";
+
+  position: absolute;
+  top: 4px;
+  left: -27px;
+
+  width: 18px;
+  height: 15px;
+  background-image: url("../img/icon-individual.png");
+}
+
+.navcats-all__item--project a {
+  color: #ea3232;
+}
